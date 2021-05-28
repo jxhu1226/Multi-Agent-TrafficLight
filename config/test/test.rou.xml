@@ -1,0 +1,39 @@
+<routes>
+  <vType id="type1" length="5" accel="5" decel="10"/>
+  <flow id="i_1" departPos="random_free" from="nt1_nt2" to="nt9_np7" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_2" departPos="random_free" from="nt2_nt1" to="nt3_np4" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_3" departPos="random_free" from="nt1_nt2" to="nt7_np9" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_4" departPos="random_free" from="nt2_nt1" to="nt3_np4" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_5" departPos="random_free" from="nt2_nt3" to="nt6_np5" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_6" departPos="random_free" from="nt3_nt2" to="nt8_np8" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_7" departPos="random_free" from="nt2_nt3" to="nt8_np8" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_8" departPos="random_free" from="nt3_nt2" to="nt8_np8" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_9" departPos="random_free" from="nt4_nt5" to="nt9_np7" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_10" departPos="random_free" from="nt5_nt4" to="nt6_np5" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_11" departPos="random_free" from="nt4_nt5" to="nt9_np6" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_12" departPos="random_free" from="nt5_nt4" to="nt7_np10" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_13" departPos="random_free" from="nt5_nt6" to="nt9_np6" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_14" departPos="random_free" from="nt6_nt5" to="nt9_np7" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_15" departPos="random_free" from="nt5_nt6" to="nt7_np10" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_16" departPos="random_free" from="nt6_nt5" to="nt9_np6" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_17" departPos="random_free" from="nt7_nt8" to="nt9_np6" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_18" departPos="random_free" from="nt8_nt7" to="nt2_np2" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_19" departPos="random_free" from="nt7_nt8" to="nt1_np12" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_20" departPos="random_free" from="nt8_nt7" to="nt7_np9" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_21" departPos="random_free" from="nt8_nt9" to="nt2_np2" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_22" departPos="random_free" from="nt9_nt8" to="nt7_np9" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_23" departPos="random_free" from="nt8_nt9" to="nt1_np1" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_24" departPos="random_free" from="nt9_nt8" to="nt8_np8" begin="0" end="1" departLane="2" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_25" departPos="random_free" from="nt1_nt4" to="nt8_np8" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_26" departPos="random_free" from="nt4_nt1" to="nt2_np2" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_27" departPos="random_free" from="nt4_nt7" to="nt8_np8" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_28" departPos="random_free" from="nt7_nt4" to="nt7_np9" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_29" departPos="random_free" from="nt2_nt5" to="nt1_np12" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_30" departPos="random_free" from="nt5_nt2" to="nt9_np6" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_31" departPos="random_free" from="nt5_nt8" to="nt2_np2" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_32" departPos="random_free" from="nt8_nt5" to="nt7_np10" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_33" departPos="random_free" from="nt3_nt6" to="nt1_np12" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_34" departPos="random_free" from="nt6_nt3" to="nt3_np4" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_35" departPos="random_free" from="nt6_nt9" to="nt9_np6" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+  <flow id="i_36" departPos="random_free" from="nt9_nt6" to="nt1_np1" begin="0" end="1" departLane="1" departSpeed="0" number="24" type="type1"/>
+</routes>
