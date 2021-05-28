@@ -19,6 +19,7 @@ def parse_args():
                     choices=['no_test', 'in_train_test', 'after_train_test', 'all_test'])
     sp.add_argument('--env-name', type=str, required=False, default=default_env_name,
                     help='experiment environment path')
+    sp.add_argument('--agent', type=str, required=False, default='iqld', help='traffic agent name')
     # evaluate arguments
     sp = subparsers.add_parser('evaluate', help='evaluate and compare agents under base dir')
     sp.add_argument('--agents', type=str, required=False, default='naive',
@@ -62,6 +63,7 @@ def train(args):
     in_test, post_test = init_test_mode(args.test_mode)
 
     env = init_env(config['ENV_CONFIG'])
+    env.agent = args.agent
     logging.info('Training: s dim: %d, a dim %d, s dim ls: %r, a dim ls: %r' %
                  (env.n_s, env.n_a, env.n_s_ls, env.n_a_ls))
 

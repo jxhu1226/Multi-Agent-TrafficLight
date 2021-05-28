@@ -1,0 +1,6 @@
+# 运行代码
+python main.py --base-dir=test train --env-name=test --agent=iqld
+
+# 构建路网
+python build_file.py
+
